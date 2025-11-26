@@ -52,24 +52,24 @@ p = list(z)
 print(p.sort())
 
 # 13) Convert nested list to a single flat list
-# lis = [[11, 22, 33, 44], [55, 66, 77], [88, 99, 100]]
-# flat_list=[]
-# for i in lis:
-#     flat_list.extend(i)
-# print('List', lis)
-# print('Flat List', flat_list)
+lis = [[11, 22, 33, 44], [55, 66, 77], [88, 99, 100]]
+flat_list=[]
+for i in lis:
+    flat_list.extend(i)
+print('List', lis)
+print('Flat List', flat_list)
 
 # 14) Count frequency of each elemnent in list.
-# p = [1,1,2,2,3,3,4,4,4]
-# t = {}
-# for num in p:
-#     t[num] = t.get(num, 0) + 1
-# print(t)
+p = [1,1,2,2,3,3,4,4,4]
+t = {}
+for num in p:
+    t[num] = t.get(num, 0) + 1
+print(t)
 
 # 15) Sort Dict by vale
 
-# m = {'a':2,'b':1,'c':4,'d':3}
-# print(dict(sorted(m.items(),key=lambda item: item[1])))
+m = {'a':2,'b':1,'c':4,'d':3}
+print(dict(sorted(m.items(),key=lambda item: item[1])))
 
 # 16) Check if two list have the same element
 i=[2,3,4]
