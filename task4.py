@@ -1,12 +1,12 @@
 # TASK
 
-# 1) check if no. is positive 
+# 1) check if no. is positive
 num1=eval(input("Enter a number : "))
 if num1>=0:
     print(f"{num1} is positive")
 
 # 2) check if no. is divisible by 2
-if num%2==0:
+if num1%2==0:
     print(f"{num1} is divisible by 2")
 
 # 3) print message if age is grater than 18
@@ -45,9 +45,9 @@ if num1>100:
 
 # 10) check if a word contains letter "a"
 if "a" in n2:
-    print(f"{n2} word contain letter "a"")
+    print(f"{n2} word contain letter a")
 else:
-    print(f"{n2} word not contain letter "a"")
+    print(f"{n2} word not contain letter a")
 
 # 11) check if given no. is even or odd
 if num1%2==0:
